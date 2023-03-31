@@ -1,12 +1,14 @@
-import { configureStore } from '@reduxjs/toolkit'
-import tarefasReducer from './reducers/tarefas'
-import filtroReducer from './reducers/filtro'
+import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
+import questaosReducer from './reducers/questoes'
 
 const store = configureStore({
   reducer: {
-    tarefas: tarefasReducer,
-    filtro: filtroReducer
-  }
+    questoes: questaosReducer
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false
+    })
 })
 
 export type RootReducer = ReturnType<typeof store.getState>

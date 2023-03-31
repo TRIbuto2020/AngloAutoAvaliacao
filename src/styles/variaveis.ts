@@ -1,10 +1,18 @@
 export default {
-  vermelho: '#C23616',
-  verde: '#44BD32',
-  amarelo: '#F0C11A',
-  amarelo2: '#E1A32A',
-  azulescuro: '#2f3640',
-  azul: '#1e90ff',
-  cinza: '#383838',
-  cinzaClaro: '#888'
+  vermelho: '#ff3f34',
+  verde: '#05c46b',
+  amarelo: '#ffd32a',
+  azulescuro: '#3c40c6',
+  azul: '#0fbcf9',
+  cinza: '#485460',
+  cinzaClaro: '#808e9b',
+  rosaClaro: '#ef5777',
+  vermelhoClaro: '#ff5e57',
+  amareloClaro: '#ffdd59',
+  menta: '#0be881',
+  cinzinha: '#d2dae2',
+  turquesa: '#34e7e4',
+  lavanda: '#D980FA',
+  roxinho: '#9980FA',
+  laranja: '#f19066'
 }

@@ -5,7 +5,8 @@ import Home from './pages/Home'
 import EstiloGlobal, { Container } from './styles'
 
 import store from './store'
-import Cadastro from './pages/Cadastro'
+import Avaliacao from './pages/Avaliacao'
+import Resultados from './pages/Resultados'
 
 const rotas = createBrowserRouter([
   {
@@ -13,8 +14,12 @@ const rotas = createBrowserRouter([
     element: <Home />
   },
   {
-    path: '/novo',
-    element: <Cadastro />
+    path: '/Avaliação',
+    element: <Avaliacao />
+  },
+  {
+    path: '/Resultados',
+    element: <Resultados />
   }
 ])
 
